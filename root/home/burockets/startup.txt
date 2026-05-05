@@ -1,0 +1,18 @@
+script names:
+flight
+simcom-connect
+
+to enable on startup:
+sudo systemctl enable [script_name]
+
+to disable on startup:
+sudo systemctl disable [script_name]
+
+to start on command:
+sudo systemctl start [script_name]
+
+to stop on command:
+sudo systemctl stop [script_name]
+
+to observe status:
+sudo systemctl status [script_name]

@@ -6,7 +6,7 @@ import urllib.error
 import time
 import sys
 import os
-IFACE = "wwu1u3i5"
+IFACE = "wwu1i5"
 WDM = "/dev/cdc-wdm0"
 
 def run(cmd):

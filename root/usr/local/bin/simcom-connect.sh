@@ -1,5 +1,5 @@
 #!/bin/bash
-IFACE=wwu1u3i5
+IFACE=wwu1i5
 WDM=/dev/cdc-wdm0
 
 # Wait for interface to appear

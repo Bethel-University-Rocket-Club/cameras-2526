@@ -1,0 +1,12 @@
+[Unit]
+Description=Rocket Camera System Start Code
+After=hostapd.service multi-user.target
+Requires=hostapd.service
+
+[Service]
+ExecStartPre=/bin/sleep 5
+ExecStart=/usr/bin/python3 /home/burockets/flight.py
+User=root
+
+[Install]
+WantedBy=multi-user.target
